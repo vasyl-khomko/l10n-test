@@ -5,6 +5,19 @@ pull_request_labels: [
 ]
 commit_message: "Fix: New translations %original_file_name% from Crowdin"
 append_commit_message: false
+export_languages: [
+  "uk",
+  "ja"
+]
+pull_request_assignees: [
+  "login1",
+  "login2"
+]
+pull_request_reviewers: [
+  "login1",
+  "login2"
+]
+customxxx: zzzssss
 files:
   - source: /1_multilingual.csv #zghfhgfhf
     translation: /%two_letters_code%/multilingual_tr.csv
