@@ -4,3 +4,7 @@ files:
     multilingual: 1
     first_line_contains_header: 1
     scheme: 'identifier,source_phrase,translation'
+  - source: /1_android.xml
+    translation: /%two_letters_code%/%original_file_name%
+    translatable_elements:
+      - /resourses/string
