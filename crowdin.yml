@@ -3,7 +3,7 @@ files:
     translation: /%two_letters_code%/multilingual_tr.csv
     multilingual: 1
     first_line_contains_header: 1
-    scheme: 'identifier,source_phrase,translation'
+    scheme: 'identifier,source_phrase,translation,<h1>zzz</h1>'
     zzz: 'iq1q1q1'
   - source: /1_android.xml
     translation: /%two_letters_code%/%original_file_name%
