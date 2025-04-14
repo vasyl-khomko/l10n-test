@@ -11,3 +11,6 @@ files:
       "android",
       "<a>1</a>"
     ]
+    "translation_replace": {
+      "_en": ""
+    }
