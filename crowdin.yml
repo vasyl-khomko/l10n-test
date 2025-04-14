@@ -1,3 +1,10 @@
+pull_request_title: "Custom PR title"
+pull_request_labels: [
+  "crowdin",
+  "l10n"
+]
+commit_message: "Fix: New translations %original_file_name% from Crowdin"
+append_commit_message: false
 files:
   - source: /1_multilingual.csv #zghfhgfhf
     translation: /%two_letters_code%/multilingual_tr.csv
@@ -14,3 +21,19 @@ files:
     "translation_replace": {
       "_en": ""
     }
+    "ignore": [
+      "/test/file.properties",
+      "/example.properties"
+    ]
+    "excluded_target_languages": [
+      "uk",
+      "fr"
+    ]
+    "type": "properties"
+    "update_option": "update_as_unapproved"
+    "custom_segmentation": "/rules/sample.srx.xml"
+    "translate_attributes": 1
+    "translate_content": 0
+    "content_segmentation": 1
+    "escape_quotes": 1,
+    "escape_special_characters": 0
