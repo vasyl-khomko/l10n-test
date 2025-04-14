@@ -36,8 +36,9 @@ files:
     type: <a>1</a>
     update_option: <a>1</a>
     custom_segmentation: /rules/<a>1</a>.srx.xml
-    translate_attributes: 1
-    translate_content: 0
-    content_segmentation: 1
-    escape_quotes: '1,'
-    escape_special_characters: 0
+    translate_attributes: <a>1</a>
+    translate_content: <a>1</a>
+    content_segmentation: <a>1</a>
+    escape_quotes: '<a>1</a>'
+    escape_special_characters: <a>1</a>
+    custom: <a>1</a>
