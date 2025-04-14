@@ -1,20 +1,20 @@
-pull_request_title: "Custom PR title"
+pull_request_title: "Custom PR title<a>1</a>"
 pull_request_labels: [
-  "crowdin",
+  "crowdin<a>1</a>",
   "l10n"
 ]
-commit_message: "Fix: New translations %original_file_name% from Crowdin"
+commit_message: "Fix: New translations %original_file_name% from Crowdin<a>1</a>"
 append_commit_message: false
 export_languages: [
-  "uk",
+  "uk<a>1</a>",
   "ja"
 ]
 pull_request_assignees: [
-  "login1",
+  "login1<a>1</a>",
   "login2"
 ]
 pull_request_reviewers: [
-  "login1",
+  "login1<a>1</a>",
   "login2"
 ]
 customxxx: zzzssss
@@ -42,9 +42,9 @@ files:
       "uk",
       "fr"
     ]
-    "type": "properties"
-    "update_option": "update_as_unapproved"
-    "custom_segmentation": "/rules/sample.srx.xml"
+    "type": "<a>1</a>"
+    "update_option": "<a>1</a>"
+    "custom_segmentation": "/rules/<a>1</a>.srx.xml"
     "translate_attributes": 1
     "translate_content": 0
     "content_segmentation": 1
