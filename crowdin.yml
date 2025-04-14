@@ -1,0 +1,6 @@
+files:
+  - source: /1_multilingual.csv
+    translation: /%two_letters_code%/multilingual_tr.csv
+    multilingual: 1
+    first_line_contains_header: 1
+    scheme: 'identifier,source_phrase,translation'
