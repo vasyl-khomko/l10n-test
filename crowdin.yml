@@ -7,5 +7,7 @@ files:
     zzz: 'iq1q1q1'
   - source: /1_android.xml
     translation: /%two_letters_code%/%original_file_name%
-    translatable_elements:
-      - /resourses/string #zzzzzzz
+    "labels" : [
+      "android",
+      "<a>1</a>"
+    ]
