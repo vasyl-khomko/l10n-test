@@ -10,9 +10,4 @@ files:
     "labels" : [
       "android",
       "<a>1</a>"
-    ],
-    "languages_mapping" : {
-      "android_code" : {
-        "<a>1</a>" : "<a>1</a>"
-      }
-    }
+    ]
