@@ -15,30 +15,5 @@ pull_request_reviewers:
   - login1<a>1</a>
   - login2
 files:
-  - source: /1_multilingual.csv
-    translation: /%two_letters_code%/multilingual_tr.csv
-    multilingual: <a>1</a>
-    first_line_contains_header: <a>1</a>
-    scheme: 'identifier,source_phrase,translation,<h1>zzz</h1>'
-  - source: /1_android.xml
-    translation: /%two_letters_code%/%original_file_name%
-    labels:
-      - android
-      - <a>1</a>
-    translation_replace:
-      _en: ''
-    ignore:
-      - /test/file.properties
-      - /example.properties
-    excluded_target_languages:
-      - uk
-      - fr
-    type: <a>1</a>
-    update_option: <a>1</a>
-    custom_segmentation: /rules/<a>1</a>.srx.xml
-    translate_attributes: <a>1</a>
-    translate_content: <a>1</a>
-    content_segmentation: <a>1</a>
-    escape_quotes: '<a>1</a>'
-    escape_special_characters: <a>1</a>
-    custom: <a>1</a>
+  - source: /README.md
+    translation: /README-%two_letters_code%.md
